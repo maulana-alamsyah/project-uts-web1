@@ -1,0 +1,158 @@
+.rounded-card{
+    border-radius: 10px;
+    border-color: #E0DFDC;
+}
+.rounded-sampul{
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border:solid;
+    border-top: none;
+    border-color: blue;
+}
+.rounded-komen{
+    border-radius: 13px;
+}
+.btn-asd:active{
+    border-color: #ffff;
+}
+.sticky-top{
+    top: 100px !important;
+}
+.bg-konten {
+    background-color: #F0F2F5;
+}
+.warna-icon {
+    color: #B3B3B3;
+}
+.button-posting:hover{
+    background-color: #EBEBEB;
+}
+.button-posting{
+    border-color: #B2B2B2;
+}
+.no-shadow:focus{
+    /* outline: none; */
+    outline: none;
+    box-shadow: none;
+}
+.bg-komentar{
+    background-color: #F0F2F5;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 411px) and (max-width: 767px) { 
+    .konten-mobile {
+        margin-top: 30px;
+    }
+    .konten-mobile-profil {
+        margin-top: 15px;
+    }
+    .kolom-search {
+        display: none !important;
+    }
+    .ikon-profil{
+        display: none;
+    }
+    .sidebar-kiri {
+        display: none;
+    }
+    .sidebar-kanan {
+        display: none;
+    }
+    .text-icon-nav {
+        display: none;
+    }
+    .menu-nav {
+        width: 45px;
+    }
+    .tombol-posting {
+        width: 100%;
+    }
+    .foto-profil{
+        width: 35%;
+        display: block;
+        margin: auto;
+    }
+    .text-profil{
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .edit-profil{
+        justify-content: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+    .sidebar-kiri{
+        display: none;
+    }
+    .ikon-search {
+        display: none !important;
+    }
+    .menu-nav {
+        width: 70px;
+    }
+    .konten {
+        margin-top: 90px;
+    }
+    .sticky-top{
+        top: 70px !important;
+      }
+      .tombol-posting {
+        width: 100%;
+    }
+    .foto-profil{
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
+    .text-profil{
+        justify-content: center;
+    }
+    .edit-profil{
+        justify-content: center;
+    }
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    .ikon-search {
+        display: none !important;
+    }
+    .menu-nav {
+        width: 80px;
+    }
+    .konten {
+        margin-top: 90px;
+    }
+    .konten-profil{
+        margin-top: 63px;
+    }
+    .sticky-top{
+        top: 70px !important;
+      }
+    .tombol-posting {
+        width: 93%;
+    }
+    .tinggi-sampul{
+        height: 390px;
+    }
+    .foto-profil{
+        width: 90%;
+    }
+    .text-profil{
+        align-items: center;
+    }
+    .edit-profil{
+        justify-content: end;
+        align-items: center;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .ikon-search {
+        display: none !important;
+    }
+}
